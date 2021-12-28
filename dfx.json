@@ -1,0 +1,45 @@
+{
+  "canisters": {
+    "zombieNFT": {
+      "main": "src/factory/zombieNFT.mo",
+      "type": "motoko"
+    },
+    "zombieMataData0": {
+      "main": "src/data/zombieMetaData.mo",
+      "type": "motoko"
+    },
+    "zombieMataData1": {
+      "main": "src/data/zombieMetaData.mo",
+      "type": "motoko"
+    },
+    "zombieMataData2": {
+      "main": "src/data/zombieMetaData.mo",
+      "type": "motoko"
+    },
+    "zombieMataData3": {
+      "main": "src/data/zombieMetaData.mo",
+      "type": "motoko"
+    },
+    "zombieMataData4": {
+      "main": "src/data/zombieMetaData.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": ""
+    }
+  },
+  "dfx": "0.8.4",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    },
+    "dev": {
+      "bind": "127.0.0.1:8001",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
